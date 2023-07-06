@@ -1,0 +1,71 @@
+/*
+  colors:
+    green: #3cc47c
+    dark green: #3cc47c
+    gray: #828081
+*/
+
+body {
+  font-family: sans-serif;
+  color: #828081;
+  text-align: center;
+  margin-left: 0;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 4.44vw;
+  background-color: #3cc47c;
+  color: white;
+  text-align: left;
+  padding: 0 0 0 33px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 9px;
+  color: #3cc47c;
+}
+
+/* nav bar styles */
+
+nav {
+  width: 100%;
+  color: #3cc47c;
+}
+
+ul {
+  text-align: left;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+li.left {
+  padding: 11px 33px 0 33px;
+}
+
+li.right {
+  float: right;
+  padding: 11px 11px 0 11px;
+}
+
+a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* image formatting */
+image {
+  float: right;
+}
+
+figcaption {
+  color: #828081;
+  font-size: 6px;
+}
